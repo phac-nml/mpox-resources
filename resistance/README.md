@@ -5,11 +5,14 @@ This tutorial demonstrates how to detect and visualize resistance-associated mut
 1. [Resistance Mutations](#resistance-mutations)
 2. [Data](#data)
 3. [Analysis](#analysis)
-4. [Output](#output)
+4. [Example Output](#output)
 
 ## Resistance Mutations
 
 A systematic literature review was conducted by...
+
+- `data/literature_review.csv`: Data recorded during the literature review.
+- `data/resistance_mutations.tsv`: Mutations formatted as search patterns to extract from `nextclade` output.
 
 ## Data
 
