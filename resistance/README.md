@@ -39,8 +39,12 @@ The example data includes two Tecovirimat-resistance Mpox genomes from the follo
     ```bash
     # Resistance mutation definitions
     wget https://raw.githubusercontent.com/phac-nml/mpox-resources/refs/heads/main/resistance/data/resistance_mutations.tsv
+
     # Example genomes
     wget https://raw.githubusercontent.com/phac-nml/mpox-resources/refs/heads/main/resistance/example/sequences.fasta
+
+    # Example tree
+    wget https://raw.githubusercontent.com/phac-nml/mpox-resources/refs/heads/main/resistance/example/tree.nwk
     ```
 1. Call mutations with nextclade.
 
@@ -60,7 +64,11 @@ The example data includes two Tecovirimat-resistance Mpox genomes from the follo
 1. Plot resistance mutations.
 
     ```bash
-    pangwas heatmap --rtab resistance.output.Rtab --prefix resistance
+    pangwas heatmap \
+      --rtab resistance.output.Rtab \
+      --tree tree.nwk \
+      --tree-width 50 \
+      --prefix resistance
     ```
 
 ## Output
@@ -80,4 +88,4 @@ The output heatmap of resistance mutations will be located at `resistance.plot.p
 
 > **Tip**: For large sample sizes, open the SVG in Edge or Firefox to get hovertext for each variant!
 
-![](example/plot.svg)
+![](example/resistance.plot.svg)
