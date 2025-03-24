@@ -1,6 +1,6 @@
 # Resistance
 
-This tutorial demonstrates how to detect and visualize resistance-associated mutations in Mpox genomes. It uses [`nextclade`](https://github.com/nextstrain/nextclade) for mutation calling, and [`pangwas`](https://github.com/phac-nml/pangwas) to extract and visualize the resistance mutations. For example input and output files, please see the `example` folder.
+This tutorial demonstrates how to detect and visualize resistance-associated mutations in Mpox genomes. It uses [`nextclade`](https://github.com/nextstrain/nextclade) for mutation calling, and [`pangwas`](https://github.com/phac-nml/pangwas) to extract and visualize the resistance mutations. For example input and output files, please see the [example](https://github.com/phac-nml/mpox-resources/tree/main/resistance/example) folder.
 
 1. [Resistance Mutations](#resistance-mutations)
 2. [Data](#data)
