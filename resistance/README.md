@@ -9,7 +9,7 @@ This tutorial demonstrates how to detect and visualize resistance-associated mut
 
 ## Resistance Mutations
 
-A systematic literature review was conducted by...
+A systematic literature review was conducted by first compiling a list of antivirals used for Mpox treatment from national and international public health guidelines. These antivirals were then used as key words in combination with "monkeypox", "resistance" and "resistance mutation" to perform searches of PubMed and Google Scholar. Gene annotation information was  gathered from NCBI.
 
 - `data/literature_review.csv`: Data recorded during the literature review.
 - `data/resistance_mutations.tsv`: Mutations formatted as search patterns to extract from `nextclade` output.
@@ -49,6 +49,7 @@ The example data includes two Tecovirimat-resistance Mpox genomes from the follo
     # Example tree
     wget https://raw.githubusercontent.com/phac-nml/mpox-resources/refs/heads/main/resistance/example/tree.nwk
     ```
+
 1. Call mutations with nextclade.
 
     ```bash
